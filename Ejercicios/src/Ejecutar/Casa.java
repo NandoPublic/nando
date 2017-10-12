@@ -5,6 +5,16 @@ public class Casa {
 	private String direccion;
 	private SalonCasa saloncasa;
 	private CocinaCasa cocina;
+	private HabitacionesCasa habitacionescasa;
+
+
+	public HabitacionesCasa getHabitacionescasa() {
+		return habitacionescasa;
+	}
+
+	public void setHabitacionescasa(HabitacionesCasa habitacionescasa) {
+		this.habitacionescasa = habitacionescasa;
+	}
 
 	public double getSuperficie() {
 		return superficie;
@@ -39,10 +49,11 @@ public class Casa {
 	}
 
 	public Casa() {
-		this.superficie = 0;
+		this.superficie = 1000;
 		this.direccion = "desconocida";
 		this.saloncasa = new SalonCasa();
 		this.cocina = new CocinaCasa();
+		this.habitacionescasa= new HabitacionesCasa();
 	}
 
 }
