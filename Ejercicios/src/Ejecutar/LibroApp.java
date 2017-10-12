@@ -9,6 +9,7 @@ public class LibroApp {
 		
 		System.out.println(libro1.toString());
 		System.out.println(libro2.toString());
+		System.out.println(libro3.toString());
 		
 			if (libro1.getNumpag()<libro2.getNumpag()) {
 				System.out.println("el libro \""+ libro1.getTitulo()+ "\" tiene más páginas que el libro "
