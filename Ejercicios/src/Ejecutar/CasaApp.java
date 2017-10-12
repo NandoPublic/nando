@@ -1,7 +1,7 @@
 package Ejecutar;
 
 public class CasaApp {
-
+//se prepara para commit 3
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Casa casa1=new Casa();
