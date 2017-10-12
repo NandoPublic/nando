@@ -14,8 +14,6 @@ public class CasaApp {
 	
 		Casa casa3= new Casa();
 
-		
-		System.out.println(casa2.getDireccion());
 
 		
 	}
