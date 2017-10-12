@@ -9,7 +9,7 @@ public class CasaApp {
 		 + " " + casa1.getHabitacionescasa());
 		
 		Casa casa2= new Casa();
-		System.out.println(casa1.getSuperficie()+ "mts cuadrados");
+		System.out.println(casa1.getSuperficie()+ " mts cuadrados "+ casa2.getCocina()+ casa2.getHabitacionescasa());
 	}
 
 }
