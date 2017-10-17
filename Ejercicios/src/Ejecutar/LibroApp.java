@@ -8,6 +8,7 @@ public class LibroApp {
 		Libro libro3= new Libro("asdf 789", "elevación", "Valen d. N", 222);
 		Libro libro4= new Libro ("asdf 321", "Antes", "NR", 100);
 		Libro libro5= new Libro ("asdf 321", "Sublevacion", "H-L", 100);
+		Libro libro6= new Libro ("asdf 421", "Arcángel", "N-L", 100);
 		System.out.println(libro1.toString());
 		System.out.println(libro2.toString());
 		System.out.println(libro3.toString());
