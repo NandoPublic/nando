@@ -7,7 +7,7 @@ public class LibroApp {
 		Libro libro2=new Libro("asd456", "Caida", "H.L Flórez", 150);
 		Libro libro3= new Libro("asdf 789", "elevación", "Valen d. N", 222);
 		Libro libro4= new Libro ("asdf 321", "Antes", "NR", 100);
-		Libro libro5= new Libro ("asdf 321", "Sublevacion", "H-L", 100);
+		Libro libro5= new Libro ("asdf 321", "Sublevacion", "H-L", 10);
 		System.out.println(libro1.toString());
 		System.out.println(libro2.toString());
 		System.out.println(libro3.toString());
