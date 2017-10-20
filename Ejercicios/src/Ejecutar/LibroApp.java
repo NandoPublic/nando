@@ -12,7 +12,7 @@ public class LibroApp {
 
 		Libro libro6= new Libro ("asdf 421", "Arcángel", "N-L", 100);
 		Libro libro7= new Libro ("XXXX 421", "Error Y Sufrimiento", "N-L", 1000);
-		Libro libro8= new Libro ("XXXX 421", "Error Y Sufrimiento", "N-L", 1000);
+		
 
 		System.out.println(libro1.toString());
 		System.out.println(libro2.toString());
